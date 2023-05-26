@@ -1,0 +1,89 @@
+body{
+    font-family: 'arial';
+    background-color: darkblue;
+}
+.container{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    margin: 150px auto;
+    gap: 5px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.412);
+    border-radius: 20px;
+}
+.box{
+    border: 1px solid lightblue;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 25px 0 lightblue;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.img{
+    margin-top: 10px;
+    width: 270px;
+    height: 250px;
+    display: flex;
+    overflow: hidden;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+}
+img img{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    color: aqua;
+}
+.table{
+    width: 80%;
+    height: 35%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.table-inner{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.table-text{
+    font-weight: 600;
+    width: 30%;
+    color: aqua;
+}
+.table-row{
+    width: 60%;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px 5px 0px 5px;
+    border: 2px solid gray; 
+}
+.table-row-inner{
+    width: 0%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.box1:hover .table-row-inner1{
+    width: 50%;
+    transition: 1s;
+    box-shadow: 0 0 25px 0 lightblue;
+}
+.box2:hover .table-row-inner2{
+    width: 100%;
+    transition: 1s;
+    box-shadow: 0 0 25px 0 lightblue;
+}
+.box3:hover .table-row-inner3{
+    width: 25%;
+    transition: 1s;
+    box-shadow: 0 0 25px 0 lightblue;
+}
+.box:hover{
+    width: 120%;
+    transition: .3s;
+}
